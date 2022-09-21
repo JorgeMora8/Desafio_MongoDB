@@ -581,4 +581,4 @@ admin> db.getUsers()
 
 (Error arrojado por la base de datos.)
 
---  MongoServerError: not authorized on BaseDatos_Mongo to execute command { insert: "productos", documents: [ { nombre: "Redmi Note 9", precio: 833,  _id: ObjectId('9725y287392b23t57cc67c0a') } ], ordered: true, lsid: { id: UUID("43259ecf-c2dd-4a22-aa39-59c10376d147") }, $db: "BaseDatos_Mongo" }
+--  MongoServerError: not authorized on BaseDatos_Mongo to execute command { insert: "productos", documents: [ { nombre: "Redmi Note 9",  _id: ObjectId('9725y287392b23t57cc67c0a') } ], ordered: true, lsid: { id: UUID("43259ecf-c2dd-4a22-aa39-59c10376d147") }, $db: "BaseDatos_Mongo" }
